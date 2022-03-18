@@ -67,7 +67,7 @@ export default function NewMovie() {
       <h1 className="addProductTitle">New Movie</h1>
       <form className="addProductForm">
         <div className="addProductItem">
-          <label>Image</label>
+          <label>Image(ImgLg)</label>
           <input
             type="file"
             id="img"
@@ -85,7 +85,7 @@ export default function NewMovie() {
           />
         </div>
         <div className="addProductItem">
-          <label>Thumbnail image</label>
+          <label>Thumbnail image(ImgSm)</label>
           <input
             type="file"
             id="imgSm"
